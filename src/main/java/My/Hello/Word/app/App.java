@@ -11,10 +11,10 @@ public class App
     public static void main11( String[] args )
     {
 
-	System.out.println( "Hello World! It is a test JAVA app for Jenkins." ); 
-/**	System.out.println( "That is another string in this project." ); 
+	System.out.println( "Hello World!" ); 
+	System.out.println( "It is a test JAVA app for Jenkins by Vasili Efremov." ); 
+	System.out.println( "MTN&BI Groupe" );
 
- */
     }
 }
 
