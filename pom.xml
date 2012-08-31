@@ -3,8 +3,8 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>My.Hello.Word.app</groupId>
   <artifactId>MyHelloWord-app</artifactId>
-  <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <packaging>war</packaging>
+  <version>1.0</version>
   <name>MyHelloWord-app</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -15,4 +15,13 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <build>
+    <finalName>MyHelloWord-app</finalName>
+    <plugins>
+    <plugin>
+        <groupId>My.Hello.Word.app</groupId>
+        <artifactId>MyHelloWord</artifactId>
+    </plugin>
+    </plugins>
+  </build>
 </project>
