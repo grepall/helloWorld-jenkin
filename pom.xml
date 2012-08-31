@@ -20,7 +20,7 @@
     <plugins>
     <plugin>
         <groupId>My.Hello.Word.app</groupId>
-        <artifactId>MyHelloWord</artifactId>
+        <artifactId>maven-jetty-plugin</artifactId>
     </plugin>
     </plugins>
   </build>
