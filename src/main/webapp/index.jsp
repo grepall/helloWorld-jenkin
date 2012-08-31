@@ -4,9 +4,9 @@
         It is a test JAVA app for Jenkins by Vasili Efremov.<br />
         MTN&BI Groupe
 <br />
+<br /> Restart JBOSS complite.
 <br />
-<br />
-version: 1.6.4
+version: 1.6.5
 
 	</p>
 </body>
